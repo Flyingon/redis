@@ -2,7 +2,7 @@
 CC ?= gcc
 CXX ?= g++
 
-CFLAGS=-Wall -O3
+#CFLAGS=-Wall -O3
 # This avoids loosing the fastfloat specific compile flags when we override the CFLAGS via the main project
 FASTFLOAT_CFLAGS=-std=c++11 -DFASTFLOAT_ALLOWS_LEADING_PLUS
 LDFLAGS=
